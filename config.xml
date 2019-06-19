@@ -48,7 +48,7 @@
     <preference name="webviewbounce" value="false"/>
     <preference name="prerendered-icon" value="true"/>
     <preference name="load-url-timeout" value="60000"/>
-    <preference name="AppendUserAgent" value="CAMEeducativa"/>
+    <preference name="AppendUserAgent" value="com.cameeducativa.ar"/>
     <preference name="android-minSdkVersion" value="19"/>
     <preference name="android-targetSdkVersion" value="28"/>
     <preference name="android-installLocation" value="auto"/>
@@ -176,7 +176,7 @@
         <variable name="FCM_VERSION" value="17.0.+"/>
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='CAMEeducativa']"
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='com.cameeducativa.ar']"
                  mode="merge">
         <activity
                 android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize"

@@ -1,7 +1,7 @@
 {
     "app_id": "com.cameeducativa.ar",
-    "appname": "CAMEeducativ@",
-    "desktopappname": "CAMEeducativ@",
+    "appname": "CAMEeducativa",
+    "desktopappname": "CAMEeducativa",
     "versioncode": 3620,
     "versionname": "3.6.2",
     "cache_expiration_time": 300000,
@@ -53,10 +53,10 @@
     },
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
-    "customurlscheme": "lpmobile",
+    "customurlscheme": "CAMEeducativa",
     "siteurl": "http://plataforma.came-educativa.com.ar",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https:\/\/learnersplatform.com\/mod\/page\/view.php?id=8148"
+    "privacypolicy": "http:\/\/came-educativa.com.ar"
 }

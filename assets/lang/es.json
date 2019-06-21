@@ -1568,6 +1568,7 @@
     "core.settings.devicewebworkers": "Soporta Device Web Workers",
     "core.settings.disableall": "Desactivar las notificaciones",
     "core.settings.disabled": "Desactivado",
+	"core.settings.showdownloadoptions": "Mostrar opciones de descarga",
     "core.settings.displayformat": "Formato de visualización",
     "core.settings.enabledownloadsection": "Habilitar la descarga de secciones",
     "core.settings.enablerichtexteditor": "Activar editor de texto enriquecido",

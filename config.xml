@@ -6,7 +6,7 @@
         versionCode="36200"
         android-versionCode="36200"
         version="3.6.2">
-    <name>CAMEeducativa</name>
+    <name>CAMEeducativ@</name>
 
     <description>
         Plataforma de Capacitación CAMEeducativ@
@@ -48,7 +48,7 @@
     <preference name="webviewbounce" value="false"/>
     <preference name="prerendered-icon" value="true"/>
     <preference name="load-url-timeout" value="60000"/>
-    <preference name="AppendUserAgent" value="com.cameeducativa.ar"/>
+    <preference name="AppendUserAgent" value="CAMEeducativa"/>
     <preference name="android-minSdkVersion" value="19"/>
     <preference name="android-targetSdkVersion" value="28"/>
     <preference name="android-installLocation" value="auto"/>
@@ -66,7 +66,6 @@
     </feature>
 
     <preference name="AndroidPersistentFileLocation" value="Compatibility"/>
-    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     <preference name="iosPersistentFileLocation" value="Compatibility"/>
 
     <icon src="icon.png"/>
@@ -177,12 +176,11 @@
         <variable name="FCM_VERSION" value="17.0.+"/>
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/"
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='CAMEeducativa']"
                  mode="merge">
-            <application android:allowBackup="false"/>
         <activity
                 android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize"
-                android:debuggable="false"></activity>
+                android:debuggable="true"></activity>
     </edit-config>
 
     <!-- See MOBILE-892 -->

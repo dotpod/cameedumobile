@@ -179,7 +179,11 @@
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:launchMode='singleTop']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
-
+        
+    <edit-config file="*-Info.plist" mode="overwrite" target="UIBackgroundModes">
+    <array />
+    </edit-config>
+        
     <!-- See MOBILE-892 -->
     <preference name="permissions" value="none"/>
 

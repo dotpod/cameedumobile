@@ -5,7 +5,7 @@
         id="com.cameeducativa.ar"
         versionCode="36200"
         android-versionCode="36200"
-        version="3.6.3">
+        version="3.6.4">
     <name>CAMEeducativa</name>
 
     <description>
@@ -17,7 +17,7 @@
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.6.2</string>
+        <string>3.6.4</string>
     </edit-config>
 
     <gap:platform name="ios"/>
